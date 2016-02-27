@@ -12,12 +12,12 @@
 .middleDiv {    
     width: 1200px;
     height: 800px;
-    background-color: rgba(230,230,230,0.5);
+    background-color: rgba(230,230,230,0.3);
     margin: 0 auto;
 }
 
 #imgDiv1 {
-    background: url(../img/team2.jpg);    
+    background: url(../img/team3.jpg);    
     background-repeat: no-repeat;
     background-size: 100% 100%;
     float: left;

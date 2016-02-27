@@ -20,3 +20,6 @@ function loadPage(pageUrl,divId){
     }
     ajaxobj.send();    // 发送请求
 }
+
+//加载页面时先load进welcomepage.html
+loadPage("./pages/welcomepage.html",'middleDivDes');
