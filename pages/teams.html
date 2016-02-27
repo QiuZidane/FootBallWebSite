@@ -7,7 +7,7 @@
 *   2、导航按钮会将其他页面加载到index.html的<div class="middleDiv" id="middleDivDes"> 
 *   3、其他页面样式参照welcomepage.html/welcomepage.css编写
 *
-*   ***主页面***
+*   ***欢迎页面***
 *   
 ****************************  / -->
 
@@ -18,22 +18,7 @@
    <title>足球大本营</title>   
 </head>
 <body>
-<div class="nav-header" background="1.jpg"> 
-   <div class="nav-fix">      
-      <ul class="nav nav-pills navcontext" id="nav-pills">
-         <li class="active" name="nav-list"><a href="#" urltag="welcomepage.html">欢迎页</a></li>
-         <li name="nav-list"><a href="#" urltag="myabbs.html">编辑我的属性</a></li>
-         <li name="nav-list"><a href="#" urltag="playerabbs.html">球员属性总览</a></li>
-         <li name="nav-list"><a href="#" urltag="teams.html">联赛队伍详情</a></li>
-         <li name="nav-list"><a href="#" urltag="teampoint.html">积分榜</a></li>
-         <li name="nav-list"><a href="#" urltag="datas.html">数据榜</a></li>
-         <li name="nav-list"><a href="#" urltag="tools.html">随机分队</a></li>
-      </ul>
-      <h2 class="navcontext titletext">广研足球大本营@BaLLFanS</h2>
-   </div>
-
-</div>
-<div class="middleDiv" id="middleDivDes">   
+<div class="middleDiv" id="middleDivDes">    
    <!-- 欢迎界面图片展示 -->
    <div id="imgDiv1"></div>
    <div id="imgDiv2"></div>
@@ -53,7 +38,7 @@
    <div id="text_joins">
       <p id="text1">&nbsp&nbsp&nbsp&nbsp&nbsp已有&nbsp</p>
       <p id="CDjoins"><strong>100</strong></p>
-      <p id="text2">&nbsp人加入联赛统计</p>  
+      <p id="text2">&nbspteams</p>  
    </div>
    <!-- 立刻按钮 -->
    <div id="joinBtnDiv">
@@ -61,13 +46,11 @@
    </div>
 </div>
 
-<div class="footerDiv" id="foot">
-   
-</div>
 
-<link rel="stylesheet" type="text/css" href="./css/index.css">   <!-- 我们自定义的排版和样式看这个css -->
+<link rel="stylesheet" type="text/css" href="./css/welcomepage.css">   <!-- 我们自定义的排版和样式看这个css -->
+<script type="text/javascript" src="./js/welcomepage.js"></script>   <!-- 我们自定义的js方法 -->
+<!-- 下面是第三方引用 -->
 <link href="./css/bootstrap.min.css" rel="stylesheet">
-<script type="text/javascript" src="./js/index.js"></script>   <!-- 我们自定义的js方法 -->
 <script type="text/javascript" src="./js/jquery.min.js"></script>
 <script type="text/javascript" src="./js/bootstrap.min.js"></script>
 <script type="text/javascript" src="./js/ajaxrequest.js"></script>

@@ -2,7 +2,12 @@
 *
 *   created by qiusd on 2016-02-26
 *   cooperation wengzj
-*   欢迎页面
+*
+*   1、index.html是主页面
+*   2、导航按钮会将其他页面加载到index.html的<div class="middleDiv" id="middleDivDes"> 
+*   3、其他页面样式参照welcomepage.html/welcomepage.css编写
+*
+*   ***欢迎页面***
 *   
 ****************************  / -->
 
@@ -13,7 +18,7 @@
    <title>足球大本营</title>   
 </head>
 <body>
-<div class="middleDiv" id="middleDivDes">   
+<div class="middleDiv" id="middleDivDes">    
    <!-- 欢迎界面图片展示 -->
    <div id="imgDiv1"></div>
    <div id="imgDiv2"></div>
@@ -21,11 +26,19 @@
    <!-- 联赛倒数 -->
    <div id="text_countdown">
       <p>&nbsp&nbsp&nbsp&nbsp&nbsp联赛揭幕倒计时:</p>
-      <p id="CDtime">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp60&nbspDays&nbsp59&nbspMinutes&nbsp59&nbspSeconds</p>      
+      <p id="CDtime">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+         <strong>60</strong>&nbsp
+         <span class="text_cd">Days</span>&nbsp
+         <strong>59</strong>&nbsp
+         <span class="text_cd">Minutes</span>&nbsp
+         <strong>59</strong>&nbsp
+         <span class="text_cd">Seconds</span></p>      
    </div>      
    <!-- 已加入人数 -->
    <div id="text_joins">
-      <p id="text1">&nbsp&nbsp&nbsp&nbsp&nbsp已有&nbsp</p><p id="CDjoins">10</p><p id="text2">&nbsp人加入联赛统计</p>  
+      <p id="text1">&nbsp&nbsp&nbsp&nbsp&nbsp已有&nbsp</p>
+      <p id="CDjoins"><strong>100</strong></p>
+      <p id="text2">&nbsptools</p>  
    </div>
    <!-- 立刻按钮 -->
    <div id="joinBtnDiv">
@@ -33,9 +46,6 @@
    </div>
 </div>
 
-<div class="footerDiv" id="foot">
-   
-</div>
 
 <link rel="stylesheet" type="text/css" href="./css/welcomepage.css">   <!-- 我们自定义的排版和样式看这个css -->
 <script type="text/javascript" src="./js/welcomepage.js"></script>   <!-- 我们自定义的js方法 -->
