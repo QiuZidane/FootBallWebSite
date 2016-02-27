@@ -70,7 +70,7 @@ body {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     float: left;
-    /*border: 2px solid rgb(51,122,183);*/
+    border: 2px solid rgb(51,122,183);
     width: 420px;
     height: 630px;
     margin-top: 70px; 
@@ -83,7 +83,7 @@ body {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     float: left;
-    /*border: 2px solid rgb(51,122,183);*/
+    border: 2px solid rgb(51,122,183);
     width: 380px;
     height: 300px;
     margin-top: 70px; 
@@ -95,7 +95,7 @@ body {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     float: left;
-    /*border: 2px solid rgb(51,122,183);*/
+    border: 2px solid rgb(51,122,183);
     width: 380px;
     height: 300px;
     margin-top: 70px; 
