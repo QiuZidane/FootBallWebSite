@@ -1,7 +1,7 @@
 /*
 *
 *   created by qiusd on 2016-02-26
-*   cooperation wengzj
+*   cooperation xxx
 *   
 */
 /*******************************
@@ -17,14 +17,14 @@
 }
 
 #imgDiv1 {
-    background: url(../img/team3.jpg);    
+    background: url(../img/team2.jpg);    
     background-repeat: no-repeat;
     background-size: 100% 100%;
     float: left;
     /*border: 2px solid rgb(51,122,183);*/
     width: 420px;
     height: 630px;
-    margin-top: 70px; 
+    margin-top: 90px; 
     margin-left: 2px;
     padding-right: 5px;
 }
@@ -37,7 +37,7 @@
     /*border: 2px solid rgb(51,122,183);*/
     width: 380px;
     height: 300px;
-    margin-top: 70px; 
+    margin-top: 90px; 
     margin-left: 5px;
 }
 
@@ -49,7 +49,7 @@
     /*border: 2px solid rgb(51,122,183);*/
     width: 380px;
     height: 300px;
-    margin-top: 70px; 
+    margin-top: 90px; 
     margin-left: 5px;
 }
 
@@ -60,7 +60,7 @@
     margin-top: 20px;
     /*border: 2px solid rgb(51,122,183);*/
     font-size:20px;
-    color: rgb(51,122,183)
+    color: rgb(51,122,183);
 }
 
 #CDtime {

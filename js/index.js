@@ -5,7 +5,7 @@ if (navList) {
 };
 function navSelect(event) {
     var selectedBtn = event.target;             // click事件对象
-    var pageUrl = "./pages/"+selectedBtn.getAttribute('urltag');
+    var pageUrl = "../pages/"+selectedBtn.getAttribute('urltag');
     console.log(selectedBtn.innerHTML+": 加载:"+pageUrl);
     loadPage(pageUrl,'middleDivDes');
 }
@@ -22,4 +22,4 @@ function loadPage(pageUrl,divId){
 }
 
 //加载页面时先load进welcomepage.html
-loadPage("./pages/welcomepage.html",'middleDivDes');
+loadPage("../pages/welcomepage.html",'middleDivDes');
