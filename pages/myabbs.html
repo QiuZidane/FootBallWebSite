@@ -7,7 +7,8 @@
 *   2、导航按钮会将其他页面加载到index.html的<div class="middleDiv" id="middleDivDes"> 
 *   3、其他页面样式参照welcomepage.html/welcomepage.css编写
 *
-*   ***欢迎页面***
+*   ***我的属性页面***
+*     如何设置我的属性：标杆参考：你见过广研球员最快速度值为100，一般为50，最慢为0。
 *   
 ****************************  / -->
 
@@ -19,25 +20,32 @@
 </head>
 <body>
 <div class="middleDiv" id="middleDivDes">    
-   <!-- 欢迎界面图片展示 -->
-   <div id="imgDiv1"></div>
-   <div id="imgDiv2"></div>
-   <div id="imgDiv3"></div>
+   <!-- 说明 -->
+   <div id="explainDiv">【属性值参考标杆：比如速度,以你见过广研跑最快的那人为100,平均值为50,最慢为0】</div>
+   <!-- 进攻能力 -->
+   <div id="offDiv">
+      <div id="offtitle">进攻能力</div>
+      <div id="offabbs">
+         
+      </div>
+
+   </div>
+   <!-- 防守能力 -->
+   <div id="defDiv"></div>
    <!-- 联赛倒数 -->
    <div id="text_countdown">
-      myabbs页面 
    </div>   
 
 </div>
 
 <!-- 第三方引用 -->
-<script type="text/javascript" src="../js/jquery.min.js"></script>
-<script type="text/javascript" src="../js/bootstrap.min.js"></script>
-<script type="text/javascript" src="../js/ajaxrequest.js"></script>
+<script type="text/javascript" src="../js/third/jquery.min.js"></script>
+<script type="text/javascript" src="../js/third/bootstrap.min.js"></script>
+<script type="text/javascript" src="../js/third/ajaxrequest.js"></script>
 <link href="../css/bootstrap/bootstrap.min.css" rel="stylesheet">
 <!-- 我们自定义的css和js -->
-<link rel="stylesheet" type="text/css" href="../css/welcomepage.css">   
-<script type="text/javascript" src="../js/welcomepage.js"></script>   
+<link rel="stylesheet" type="text/css" href="../css/myabbs.css">   
+<script type="text/javascript" src="../js/myabbs.js"></script>   
 
 </body>
 </html>

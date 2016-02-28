@@ -26,7 +26,7 @@ body {
 .nav-header {
     width: 100%;
     height: 57px;
-    position: fixed;   
+    position: fixed; 
     z-index: 99999;
 }
 .nav-fix {
@@ -50,8 +50,8 @@ body {
 
 .titletext {
     color: rgb(51,122,183);
-    padding-left: 20px;    
-    margin-left: 10px;
+    padding-left: 15px;    
+    margin-left: 5px;
     margin-top: 2px;
 
 }
