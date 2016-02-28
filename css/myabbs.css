@@ -31,6 +31,18 @@
     color: rgb(51,122,183);
 }
 
+#offDiv {    
+    /*position: absolute;*/
+    float: left;
+    border: 1px solid rgb(51,122,183);
+    width: 400px;
+    height: 600px;
+    margin-top: 120px; 
+    margin-left: 10px;
+    padding-right: 5px;
+    font-size: 16px;
+    color: rgb(51,122,183);
+}
 
 
 #text_countdown {
@@ -44,5 +56,12 @@
     color: rgb(51,122,183);
 }
 
+/*下面是slider的css*/
+#GC .slider-selection {
+    background: rgb(12,142,207);
+}
+#GC .slider-handle {
+    background: rgb(12,142,207);
+}
 
 

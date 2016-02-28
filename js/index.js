@@ -22,4 +22,5 @@ function loadPage(pageUrl,divId){
 }
 
 //加载页面时先load进welcomepage.html
-loadPage("../pages/welcomepage.html",'middleDivDes');
+// loadPage("../pages/welcomepage.html",'middleDivDes');
+loadPage("../pages/myabbs.html",'middleDivDes');
