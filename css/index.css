@@ -13,7 +13,10 @@
 body {
     background-image: url(../img/bg4.jpg);    
 }
-
+/*middle的高度*/
+.middleDiv {        
+    height: 730px;
+}
 
 /*******************************
 *
@@ -53,9 +56,25 @@ body {
 
 }
 
+
 /*******************************
 *
 *       下面是FootDiv的css
 *
 /*******************************/
-
+.footerDiv {
+    width: 100%;
+    height: 57px;
+    position: fixed;   
+    z-index: 99999;
+}
+.footer-fix {
+    width: 1200px;
+    height: 40px;
+    margin: 0 auto;
+    background-image: url(../img/navbg3.png);
+    background-size: 100% 100%;
+    border-left: 0.5px solid rgb(36,152,235);
+    border-right: 0.5px solid rgb(36,152,235);
+    border-bottom: 2px solid rgb(36,152,235);
+}
