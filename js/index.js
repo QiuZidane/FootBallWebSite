@@ -7,9 +7,22 @@ function navSelect(event) {
     var selectedBtn = event.target;             // click事件对象
     var pageUrl = "../pages/"+selectedBtn.getAttribute('urltag');
     console.log(selectedBtn.innerHTML+": 加载:"+pageUrl);
-    loadPage(pageUrl,'middleDivDes');
+    // loadPage(pageUrl,'middleDivDes');    //不用AJAX方法了
+    iframeRefresh(pageUrl);
 }
-//装页面到指定id的div中
+
+function iframeRefresh(pageUrl) {
+    var iframe = document.getElementById('middleFrame');
+    if (iframe) {
+        iframe.setAttribute('src',pageUrl);
+    };
+    
+    document.iframe.location.reload()
+}
+
+
+
+//AJAX装页面到指定id的div中 -- 暂时不用这个方法了，load不到js，待研究
 function loadPage(pageUrl,divId){
     var ajaxobj = new AJAXRequest; // 创建AJAX对象,类在刚刚那个文件里了
     ajaxobj.method = "GET";   // 设置请求方式为GET

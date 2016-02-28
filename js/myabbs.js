@@ -14,4 +14,4 @@ var g = $('#G').slider()
 g.setValue(51);
 console.log(g.getValue());
 // var g1 = $('#G').setValue(50);
-alert(1);
+// alert(1);
