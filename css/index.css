@@ -18,6 +18,12 @@ body {
     height: 770px;
 }
 
+#middleFrame {
+    position: relative;
+    width: 1200px;
+    height: 770px;    
+}
+
 /*******************************
 *
 *   下面是头部nav-header的CSS
