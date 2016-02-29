@@ -4,11 +4,19 @@
 *   cooperation xxx
 *   
 */
-/*最右边的div，留着以后放图形*/
-#chart_Div {
+/*卡位div*/
+#chart_Div1 {
+    float: left;
+    /*border: 1px solid rgb(51,122,183);*/
+    width: 140px;
+    height: 400px;
+    margin-top: 100px; 
+    margin-right: 10px;
+}
+#chart_Div2 {
     float: right;
-    border: 1px solid rgb(51,122,183);
-    width: 400px;
+    /*border: 1px solid rgb(51,122,183);*/
+    width: 100px;
     height: 400px;
     margin-top: 100px; 
     margin-right: 10px;
@@ -45,10 +53,10 @@
     position: absolute;
     float: right;
     /*border: 1px solid rgb(51,122,183);*/
-    width: 1200px;
+    width: 800px;
     height: 30px;
     margin-top: 80px; 
-    margin-left: 10px;
+    margin-left: 150px;
     padding-right: 5px;
     font-size: 20px;
     color: rgb(51,122,183);
@@ -334,18 +342,7 @@
     margin-right: 5px;
     /*border: 1px solid rgb(51,122,183); */
 }
-#spec_abbs3 {  
-    float: right;
-    width: 140px; /*slider长度*/  
-    margin-right: 5px;
-    /*border: 1px solid rgb(51,122,183); */
-}
-#spec_abbs4 {  
-    float: right;
-    width: 140px; /*slider长度*/  
-    margin-right: 5px;
-    /*border: 1px solid rgb(51,122,183); */
-}
+
 
 /*******************/
 /*下面是slider的css*/
@@ -362,18 +359,7 @@
 #spec_abbs2 .slider-handle {
     background: rgb(12,142,207);
 }
-#spec_abbs3 .slider-selection {
-    background: rgb(12,142,207);
-}
-#spec_abbs3 .slider-handle {
-    background: rgb(12,142,207);
-}
-#spec_abbs4 .slider-selection {
-    background: rgb(12,142,207);
-}
-#spec_abbs4 .slider-handle {
-    background: rgb(12,142,207);
-}
+
 
 /*************/
 /*attack_部分的css*/
@@ -439,12 +425,6 @@
     margin-right: 5px;
     /*border: 1px solid rgb(51,122,183); */
 }
-#attack_abbs4 {  
-    float: right;
-    width: 140px; /*slider长度*/  
-    margin-right: 5px;
-    /*border: 1px solid rgb(51,122,183); */
-}
 
 
 
@@ -469,17 +449,11 @@
 #attack_abbs3 .slider-handle {
     background: rgb(12,142,207);
 }
-#attack_abbs4 .slider-selection {
-    background: rgb(12,142,207);
-}
-#attack_abbs4 .slider-handle {
-    background: rgb(12,142,207);
-}
 
 /*************/
-/*defen__部分的css*/
+/*defen_部分的css*/
 /*************/
-#defen__Div {    
+#defen_Div {    
     /*position: absolute;*/
     float: left;
     border: 1px solid rgb(51,122,183);
@@ -492,7 +466,7 @@
     color: rgb(51,122,183);
 }
 
-#defen__Divtitle {    
+#defen_Divtitle {    
     /*border: 1px solid rgb(51,122,183); */
     width: 50px;
     font-size: 20px;
@@ -500,7 +474,7 @@
     margin-top: 8px;    
 }
 
-#defen__progress {
+#defen_progress {
     float: right;
     width: 140px;  
     margin-top: -25px;
@@ -511,36 +485,30 @@
 }
 
 
-#defen__abbsdiv {
+#defen_abbsdiv {
     /*border: 1px solid rgb(51,122,183);   */
     margin-top: 15px;     
 }
 
-.defen__desc {
+.defen_desc {
     /*border: 1px solid rgb(51,122,183);   */
     margin-left: 10px;  
     margin-top: 15px; 
 }
 
-#defen__abbs1 {  
+#defen_abbs1 {  
     float: right;
     width: 140px; /*slider长度*/  
     margin-right: 5px;
     /*border: 1px solid rgb(51,122,183); */
 }
-#defen__abbs2 {  
+#defen_abbs2 {  
     float: right;
     width: 140px; /*slider长度*/  
     margin-right: 5px;
     /*border: 1px solid rgb(51,122,183); */
 }
-#defen__abbs3 {  
-    float: right;
-    width: 140px; /*slider长度*/  
-    margin-right: 5px;
-    /*border: 1px solid rgb(51,122,183); */
-}
-#defen__abbs4 {  
+#defen_abbs3 {  
     float: right;
     width: 140px; /*slider长度*/  
     margin-right: 5px;
@@ -552,28 +520,22 @@
 /*******************/
 /*下面是slider的css*/
 /*******************/
-#defen__abbs1 .slider-selection {
+#defen_abbs1 .slider-selection {
     background: rgb(12,142,207);
 }
-#defen__abbs1 .slider-handle {
+#defen_abbs1 .slider-handle {
     background: rgb(12,142,207);
 }
-#defen__abbs2 .slider-selection {
+#defen_abbs2 .slider-selection {
     background: rgb(12,142,207);
 }
-#defen__abbs2 .slider-handle {
+#defen_abbs2 .slider-handle {
     background: rgb(12,142,207);
 }
-#defen__abbs3 .slider-selection {
+#defen_abbs3 .slider-selection {
     background: rgb(12,142,207);
 }
-#defen__abbs3 .slider-handle {
-    background: rgb(12,142,207);
-}
-#defen__abbs4 .slider-selection {
-    background: rgb(12,142,207);
-}
-#defen__abbs4 .slider-handle {
+#defen_abbs3 .slider-handle {
     background: rgb(12,142,207);
 }
 

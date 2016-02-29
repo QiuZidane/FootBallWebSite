@@ -45,12 +45,6 @@ var spec_abbs1 = $('#spec_abbs1').slider()
 var spec_abbs2 = $('#spec_abbs2').slider()
         .on('slide', SLIDERChange)
         .data('slider');
-var spec_abbs3 = $('#spec_abbs3').slider()
-        .on('slide', SLIDERChange)
-        .data('slider');
-var spec_abbs4 = $('#spec_abbs4').slider()
-        .on('slide', SLIDERChange)
-        .data('slider');  
 
 // 进攻能力的SLIDER
 var attack_abbs1 = $('#attack_abbs1').slider()
@@ -61,24 +55,19 @@ var attack_abbs2 = $('#attack_abbs2').slider()
         .data('slider');
 var attack_abbs3 = $('#attack_abbs3').slider()
         .on('slide', SLIDERChange)
-        .data('slider');
-var attack_abbs4 = $('#attack_abbs4').slider()
-        .on('slide', SLIDERChange)
-        .data('slider');          
+        .data('slider');       
 
 // 防守能力的SLIDER
-var defen__abbs1 = $('#defen__abbs1').slider()
+var defen_abbs1 = $('#defen_abbs1').slider()
         .on('slide', SLIDERChange)
         .data('slider');
-var defen__abbs2 = $('#defen__abbs2').slider()
+var defen_abbs2 = $('#defen_abbs2').slider()
         .on('slide', SLIDERChange)
         .data('slider');
-var defen__abbs3 = $('#defen__abbs3').slider()
+var defen_abbs3 = $('#defen_abbs3').slider()
         .on('slide', SLIDERChange)
         .data('slider');
-var defen__abbs4 = $('#defen__abbs4').slider()
-        .on('slide', SLIDERChange)
-        .data('slider');          
+      
       
 
 // *************
