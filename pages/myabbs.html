@@ -23,41 +23,167 @@
 <div class="middleDiv" id="middleDivDes">    
    <!-- 说明 -->
    <div id="explainDiv">【属性值参考标杆：比如速度,以你见过广研跑最快的那人为100,平均值为50,最慢为0】</div>
-   <!-- 身体能力 -->
-   <div id="bodyDiv">
+   <!-- 身体 -->
+   <div id="bodeDiv">
       <div class="abbsBG">
-         <div id="bodyDivtitle">身体</div>
-         <div class="progress" id="bodyprogress">
+         <div id="bodeDivtitle">身体</div>
+         <div class="progress" id="bodeprogress">
             <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="60" 
                aria-valuemin="0" aria-valuemax="100" style="width: 50%;" >
             </div>
          </div>  
       </div> 
-      <div id="bodyabbsdiv">         
-            <div class="bodydesc">速度
-               <input type="text" class="myabbs" value="" data-slider-min="0" data-slider-max="100" data-slider-step="1" data-slider-value="50" data-slider-id="myabbs1" id="myabbs1" data-slider-handle="round" />
+      <div id="bodeabbsdiv">         
+            <div class="bodedesc">速度
+               <input type="text" class="" value="" data-slider-min="0" data-slider-max="100" data-slider-step="1" data-slider-value="50" data-slider-id="bodeabbs1" id="bodeabbs1" data-slider-handle="round" />
             </div>
 
-            <div class="bodydesc">体能
-               <input type="text" class="myabbs" value="" data-slider-min="0" data-slider-max="100" data-slider-step="1" data-slider-value="50" data-slider-id="myabbs2" id="myabbs2" data-slider-handle="round" />
+            <div class="bodedesc">传接球
+               <input type="text" class="" value="" data-slider-min="0" data-slider-max="100" data-slider-step="1" data-slider-value="50" data-slider-id="bodeabbs2" id="bodeabbs2" data-slider-handle="round" />
             </div>
          
-            <div class="bodydesc">强壮
-               <input type="text" class="myabbs" value="" data-slider-min="0" data-slider-max="100" data-slider-step="1" data-slider-value="50" data-slider-id="myabbs3" id="myabbs3" data-slider-handle="round" />
+            <div class="bodedesc">盘带
+               <input type="text" class="" value="" data-slider-min="0" data-slider-max="100" data-slider-step="1" data-slider-value="50" data-slider-id="bodeabbs3" id="bodeabbs3" data-slider-handle="round" />
             </div>
             
-            <div class="bodydesc">受伤抗性
-               <input type="text" class="myabbs" value="" data-slider-min="0" data-slider-max="100" data-slider-step="1" data-slider-value="50" data-slider-id="myabbs4" id="myabbs4" data-slider-handle="round" />
+            <div class="bodedesc">射门
+               <input type="text" class="" value="" data-slider-min="0" data-slider-max="100" data-slider-step="1" data-slider-value="50" data-slider-id="bodeabbs4" id="bodeabbs4" data-slider-handle="round" />
             </div>
       </div>
+   </div> 
 
+   <!-- 技术能力 -->
+   <div id="tech_Div">
+      <div class="abbsBG">
+         <div id="tech_Divtitle">技术</div>
+         <div class="progress" id="tech_progress">
+            <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="60" 
+               aria-valuemin="0" aria-valuemax="100" style="width: 50%;" >
+            </div>
+         </div>  
+      </div> 
+      <div id="tech_abbsdiv">         
+            <div class="tech_desc">抢断
+               <input type="text" class="" value="" data-slider-min="0" data-slider-max="100" data-slider-step="1" data-slider-value="50" data-slider-id="tech_abbs1" id="tech_abbs1" data-slider-handle="round" />
+            </div>
 
-   </div>
-   <!-- 防守能力 -->
-   <div id="defDiv"></div>
-   <!-- 联赛倒数 -->
-   <div id="text_countdown">
+            <div class="tech_desc">防守站位
+               <input type="text" class="" value="" data-slider-min="0" data-slider-max="100" data-slider-step="1" data-slider-value="50" data-slider-id="tech_abbs2" id="tech_abbs2" data-slider-handle="round" />
+            </div>
+         
+            <div class="tech_desc">盯人
+               <input type="text" class="" value="" data-slider-min="0" data-slider-max="100" data-slider-step="1" data-slider-value="50" data-slider-id="tech_abbs3" id="tech_abbs3" data-slider-handle="round" />
+            </div>
+            
+            <div class="tech_desc">
+               <input type="text" class="" value="" data-slider-min="0" data-slider-max="100" data-slider-step="1" data-slider-value="50" data-slider-id="tech_abbs4" id="tech_abbs4" data-slider-handle="round" />
+            </div>
+      </div>
    </div>   
+
+
+  <!-- 其他能力 -->
+   <div id="spec_Div">
+      <div class="abbsBG">
+         <div id="spec_Divtitle">技术</div>
+         <div class="progress" id="spec_progress">
+            <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="60" 
+               aria-valuemin="0" aria-valuemax="100" style="width: 50%;" >
+            </div>
+         </div>  
+      </div> 
+      <div id="spec_abbsdiv">         
+            <div class="spec_desc">传球
+               <input type="text" class="" value="" data-slider-min="0" data-slider-max="100" data-slider-step="1" data-slider-value="50" data-slider-id="spec_abbs1" id="spec_abbs1" data-slider-handle="round" />
+            </div>
+
+            <div class="spec_desc">停球
+               <input type="text" class="" value="" data-slider-min="0" data-slider-max="100" data-slider-step="1" data-slider-value="50" data-slider-id="spec_abbs2" id="spec_abbs2" data-slider-handle="round" />
+            </div>
+         
+            <div class="spec_desc">盘带
+               <input type="text" class="" value="" data-slider-min="0" data-slider-max="100" data-slider-step="1" data-slider-value="50" data-slider-id="spec_abbs3" id="spec_abbs3" data-slider-handle="round" />
+            </div>
+            
+            <div class="spec_desc">头球
+               <input type="text" class="" value="" data-slider-min="0" data-slider-max="100" data-slider-step="1" data-slider-value="50" data-slider-id="spec_abbs4" id="spec_abbs4" data-slider-handle="round" />
+            </div>
+      </div>    
+   </div> 
+   
+
+
+
+
+
+   <div id="chart_Div">
+   </div>
+
+   <!-- 进攻能力 -->
+   <div id="attack_Div">
+      <div class="abbsBG">
+         <div id="attack_Divtitle">技术</div>
+         <div class="progress" id="attack_progress">
+            <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="60" 
+               aria-valuemin="0" aria-valuemax="100" style="width: 50%;" >
+            </div>
+         </div>  
+      </div> 
+      <div id="attack_abbsdiv">         
+            <div class="attack_desc">传球
+               <input type="text" class="" value="" data-slider-min="0" data-slider-max="100" data-slider-step="1" data-slider-value="50" data-slider-id="attack_abbs1" id="attack_abbs1" data-slider-handle="round" />
+            </div>
+
+            <div class="attack_desc">停球
+               <input type="text" class="" value="" data-slider-min="0" data-slider-max="100" data-slider-step="1" data-slider-value="50" data-slider-id="attack_abbs2" id="attack_abbs2" data-slider-handle="round" />
+            </div>
+         
+            <div class="attack_desc">盘带
+               <input type="text" class="" value="" data-slider-min="0" data-slider-max="100" data-slider-step="1" data-slider-value="50" data-slider-id="attack_abbs3" id="attack_abbs3" data-slider-handle="round" />
+            </div>
+            
+            <div class="attack_desc">头球
+               <input type="text" class="" value="" data-slider-min="0" data-slider-max="100" data-slider-step="1" data-slider-value="50" data-slider-id="attack_abbs4" id="attack_abbs4" data-slider-handle="round" />
+            </div>
+      </div>    
+   </div> 
+
+   <!-- 防守能力 -->
+   <div id="defen__Div">
+      <div class="abbsBG">
+         <div id="defen__Divtitle">技术</div>
+         <div class="progress" id="defen__progress">
+            <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="60" 
+               aria-valuemin="0" aria-valuemax="100" style="width: 50%;" >
+            </div>
+         </div>  
+      </div> 
+      <div id="defen__abbsdiv">         
+            <div class="defen__desc">传球
+               <input type="text" class="" value="" data-slider-min="0" data-slider-max="100" data-slider-step="1" data-slider-value="50" data-slider-id="defen__abbs1" id="defen__abbs1" data-slider-handle="round" />
+            </div>
+
+            <div class="defen__desc">停球
+               <input type="text" class="" value="" data-slider-min="0" data-slider-max="100" data-slider-step="1" data-slider-value="50" data-slider-id="defen__abbs2" id="defen__abbs2" data-slider-handle="round" />
+            </div>
+         
+            <div class="defen__desc">盘带
+               <input type="text" class="" value="" data-slider-min="0" data-slider-max="100" data-slider-step="1" data-slider-value="50" data-slider-id="defen__abbs3" id="defen__abbs3" data-slider-handle="round" />
+            </div>
+            
+            <div class="defen__desc">头球
+               <input type="text" class="" value="" data-slider-min="0" data-slider-max="100" data-slider-step="1" data-slider-value="50" data-slider-id="defen__abbs4" id="defen__abbs4" data-slider-handle="round" />
+            </div>
+      </div>    
+   </div> 
+
+   <div id="summitBtnDiv">
+      <button type="button" class="btn btn-success btn-block" id="joinBtn">提  交</button>
+   </div>
+
+
+   
+<!-- middleDiv结束 -->
  </div>
 
 
