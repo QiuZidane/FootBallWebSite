@@ -4,6 +4,9 @@
 *   cooperation xxx
 *   
 */
+
+
+
 /*******************************
 *
 *   下面是中间Div的css：middleDiv
@@ -14,14 +17,14 @@
     height: 800px;
 /*    background-image: url(../img/bg6.jpg);
     background-size: 100% 100%;*/
-    background-color: rgba(230,230,230,0.7);
+    background-color: rgb(224,224,224);
     margin: 0 auto;
 }
 
 #explainDiv { 
     position: absolute;
     float: left;
-    border: 1px solid rgb(51,122,183);
+    /*border: 1px solid rgb(51,122,183);*/
     width: 1200px;
     height: 30px;
     margin-top: 80px; 
@@ -31,14 +34,19 @@
     color: rgb(51,122,183);
 }
 
+.abbsBG {
+    padding-bottom: 5px;
+    border-bottom:1px solid rgb(51,122,183);
+}
+
 
 #bodyDiv {    
     /*position: absolute;*/
     float: left;
     border: 1px solid rgb(51,122,183);
     width: 250px;
-    height: 200px;
-    margin-top: 120px; 
+    height: 210px;
+    margin-top: 130px; 
     margin-left: 10px;
     padding-right: 5px;
     font-size: 16px;
@@ -56,7 +64,7 @@
 #bodyprogress {
     float: right;
     width: 140px;  
-    margin-top: -27px;
+    margin-top: -25px;
     margin-left: 20px;
     margin-right: 5px;
     /*border: 1px solid rgb(51,122,183);    */
@@ -72,38 +80,31 @@
 .bodydesc {
     /*border: 1px solid rgb(51,122,183);   */
     margin-left: 10px;  
-    margin-top: 8px; 
+    margin-top: 15px; 
 }
 
 #myabbs1 {  
     float: right;
     width: 140px; /*slider长度*/  
     margin-right: 5px;
-    margin-top: 8px;
     /*border: 1px solid rgb(51,122,183); */
 }
 #myabbs2 {  
     float: right;
     width: 140px; /*slider长度*/  
-    margin-left: 20px;
     margin-right: 5px;
-    margin-top: 8px;
     /*border: 1px solid rgb(51,122,183); */
 }
 #myabbs3 {  
     float: right;
     width: 140px; /*slider长度*/  
-    margin-left: 20px;
     margin-right: 5px;
-    margin-top: 8px;
     /*border: 1px solid rgb(51,122,183); */
 }
 #myabbs4 {  
     float: right;
     width: 140px; /*slider长度*/  
-    margin-left: 20px;
     margin-right: 5px;
-    margin-top: 8px;
     /*border: 1px solid rgb(51,122,183); */
 }
 
