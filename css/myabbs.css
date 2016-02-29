@@ -31,12 +31,13 @@
     color: rgb(51,122,183);
 }
 
-#offDiv {    
+
+#bodyDiv {    
     /*position: absolute;*/
     float: left;
     border: 1px solid rgb(51,122,183);
-    width: 400px;
-    height: 600px;
+    width: 250px;
+    height: 200px;
     margin-top: 120px; 
     margin-left: 10px;
     padding-right: 5px;
@@ -44,24 +45,98 @@
     color: rgb(51,122,183);
 }
 
+#bodyDivtitle {    
+    /*border: 1px solid rgb(51,122,183); */
+    width: 50px;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 8px;    
+}
 
-#text_countdown {
-    /*position: absolute;*/
+#bodyprogress {
     float: right;
-    width: 550px;
-    height: 100px;
-    margin-top: 50px;
-    border: 2px solid rgb(51,122,183);
-    font-size:20px;
-    color: rgb(51,122,183);
+    width: 140px;  
+    margin-top: -27px;
+    margin-left: 20px;
+    margin-right: 5px;
+    /*border: 1px solid rgb(51,122,183);    */
+
 }
 
+
+#bodyabbsdiv {
+    /*border: 1px solid rgb(51,122,183);   */
+    margin-top: 15px;     
+}
+
+.bodydesc {
+    /*border: 1px solid rgb(51,122,183);   */
+    margin-left: 10px;  
+    margin-top: 8px; 
+}
+
+#myabbs1 {  
+    float: right;
+    width: 140px; /*slider长度*/  
+    margin-right: 5px;
+    margin-top: 8px;
+    /*border: 1px solid rgb(51,122,183); */
+}
+#myabbs2 {  
+    float: right;
+    width: 140px; /*slider长度*/  
+    margin-left: 20px;
+    margin-right: 5px;
+    margin-top: 8px;
+    /*border: 1px solid rgb(51,122,183); */
+}
+#myabbs3 {  
+    float: right;
+    width: 140px; /*slider长度*/  
+    margin-left: 20px;
+    margin-right: 5px;
+    margin-top: 8px;
+    /*border: 1px solid rgb(51,122,183); */
+}
+#myabbs4 {  
+    float: right;
+    width: 140px; /*slider长度*/  
+    margin-left: 20px;
+    margin-right: 5px;
+    margin-top: 8px;
+    /*border: 1px solid rgb(51,122,183); */
+}
+
+
+
+
+/*******************/
 /*下面是slider的css*/
-#GC .slider-selection {
+/*******************/
+#myabbs1 .slider-selection {
     background: rgb(12,142,207);
 }
-#GC .slider-handle {
+#myabbs1 .slider-handle {
     background: rgb(12,142,207);
 }
+#myabbs2 .slider-selection {
+    background: rgb(12,142,207);
+}
+#myabbs2 .slider-handle {
+    background: rgb(12,142,207);
+}
+#myabbs3 .slider-selection {
+    background: rgb(12,142,207);
+}
+#myabbs3 .slider-handle {
+    background: rgb(12,142,207);
+}
+#myabbs4 .slider-selection {
+    background: rgb(12,142,207);
+}
+#myabbs4 .slider-handle {
+    background: rgb(12,142,207);
+}
+
 
 
