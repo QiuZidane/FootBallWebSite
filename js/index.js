@@ -12,12 +12,9 @@ function navSelect(event) {
 }
 
 function iframeRefresh(pageUrl) {
-    var iframe = document.getElementById('middleFrame');
-    if (iframe) {
-        iframe.setAttribute('src',pageUrl);
-    };
-    
-    document.iframe.location.reload()
+	var iframe = document.getElementById('middleFrameID');	
+	iframe.setAttribute('src', pageUrl);
+	document.iframe.location.reload()
 }
 
 
