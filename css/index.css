@@ -13,9 +13,11 @@
 body {
     background-image: url(../img/bg4.jpg);    
 }
-/*middle的高度*/
-.middleDiv {        
+
+#middleDivDes {        
     height: 100%;
+    width: 1200px;
+    margin: 0 auto;
 }
 
 #middleFrameID {
