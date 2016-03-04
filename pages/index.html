@@ -1,8 +1,8 @@
 <!-- /***************************
 *
-*   created by qiusd on 2016-02-26
-*   cooperation xxx
-*
+*   作者：qiusd
+*  	时间：2016-03-26
+*   	描述：
 *   1、index.html是主页面
 *   2、导航按钮会将其他页面加载到index.html的<div class="middleDiv" id="middleDivDes"> 
 *   3、其他页面样式参照welcomepage.html/welcomepage.css编写
@@ -22,8 +22,11 @@
 		<title>足球大本营</title>
 
 	</head>
-	<!--这里要补充对IE8的屏蔽-->
-
+	<!--[if IE8]>
+		IE8不支持HTML5效果，无法加载本网站的酷炫技术，请升级到IE11或者点击下载->
+		<a href="../chrome.zip"> Chrome浏览器</a>&nbsp[**绿色版，合法的，中心可以使用**]
+	<![endif]-->
+	<!--[if !IE]><!-->  
 	<body>
 		<div class="nav-header" background="1.jpg">
 			<div class="nav-fix">
@@ -62,5 +65,6 @@
 		<script type="text/javascript" src="../js/index.js"></script>
 
 	</body>
+	<!--<![endif]-->
 
 </html>
